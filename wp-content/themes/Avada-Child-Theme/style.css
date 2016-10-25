@@ -1,0 +1,2414 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+
+@import url("../Avada/style.css");
+@import 'https://fonts.googleapis.com/css?family=Lato';
+/* =Theme customization starts here
+------------------------------------------------------- */
+.textwidget a:hover {
+    color: #fff !important;
+}
+.noutati-he .bg-cont-border .post {
+    padding: 5px;
+}
+.noutati-he .bg-cont-border .post h2{
+    color:#fff !important;
+}
+.promo-end {
+    padding: 0 20px;
+}
+
+#the-jackpot .nr-general {
+    width: 10%;
+}
+#the-jackpot .img-general {
+    width: 25%;
+}
+#the-jackpot .titluri-general {
+    width: 25%;
+}
+#the-jackpot .ratingandbutton-general {
+    width: 10%;
+    padding-top: 30px;
+}
+#the-jackpot #container-img-casinos {
+  display: flex;
+  width: 40%;
+}
+
+#container-img-casinos img {
+    border: 1px solid #838383;
+    padding: 2px;
+    opacity: 1;
+}
+.cazino-thumbnail img {
+  opacity: 1;
+}
+.cazino-thumbnail img:hover {
+  opacity: 0.8;
+}
+#container-img-casinos img:hover {
+    opacity: 0.8;
+}
+
+#the-jackpot p.cazino-h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#the-jackpot p.cazino-h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: red;
+    margin: 10px 0;
+}
+.img-jackpot-casino{
+    width: 33.3%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+#footer div {
+    text-align: center !important;
+}
+
+.one-forth-resize {
+    width: 78%;
+}
+.footer-img {
+    padding-left:10px;
+}
+.footer-right {
+  display: inline-flex;
+  margin-top: 20px;
+}
+.footer-img img {
+    width: 60px;
+}
+.cont-poze-sec .castiga-premii img {
+    width: 500px !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+.castiga-premii{
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+.castiga-premii div {
+    text-align: center !important;
+}
+.castiga-premii p {
+    margin: 20px;
+    text-align: center !important;
+}
+.cont-poze p{
+  line-height: 22px;
+font-weight: 400;
+}
+.cont-poze li{
+  line-height: 22px !important;
+font-weight: 400 !important;
+    font-size: 13px !important;
+       font-family: Lato, sans-serif !important;
+}
+.cont-poze img {
+    width: 80%;
+}
+strong {
+    font-size: 13px !important;
+}
+.preview__button.spec-btn {
+    padding: 0 5px;
+}
+
+.newsfeed-title-overlay {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    color: #fff;
+    height: 20%;
+}
+
+
+strong img {
+    width: 50%;
+}
+.cazino-button-cont {
+    width: 20%;
+    float: left;
+}
+.cls-second ul{
+   list-style-type: none;
+   font-family: 'Oswald', sans-serif;
+}
+.cls-second li:before {
+font-family: 'FontAwesome';
+content: '\f00c';
+margin:0 5px 0 -18px;
+color: #19c136;
+}
+.cls-second strong {
+  text-align: left !important;
+}
+.cls-second p {
+  margin-top: 20px;
+  text-align: left !important;
+}
+
+
+.cls-second .post:first-of-type .newsfeed-img img {
+    width: 780px;
+    height: 200px;
+}
+
+.button--wide {
+    width: 100%;
+}
+.button--wide {
+    line-height: 1;
+    padding: .5em 1em;
+    border-radius: .25em;
+    font-weight: 700;
+    background-color: transparent;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+div#inside-content {
+    padding-right: 20px;
+}
+div#second-content-text {
+    padding-right: 20px;
+}
+.preview__button {
+    padding-top: .5em;
+}
+.hue-pri.button--wide {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(34,34,34,.75);
+    border-color: #0e9826;
+    background: #0aa224;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.25),inset 0 .75em 1.5em #3aff5c;
+}
+.hue-pri.button--wide:hover, .hue-pri.button:hover {
+    background: ##2fbd47;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.5),inset 0 .25em 1em #9bffac;
+}
+.spec-btn .hue-pri.button--wide {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(34,34,34,.75);
+    border: 1px solid #125c98;
+  background: #1568ac !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25),inset 0 .75em 1.5em #3b8ed2 !important;
+
+
+}
+.spec-btn .hue-pri.button--wide:hover,.spec-btn .hue-pri.button:hover {
+    background: #3b8ed2 !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.5),inset 0 .25em 1em #166eb6 !important;
+}
+
+
+#home-games-div .the-content-cls {
+  width: 50%;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 7px;
+}
+  .newsfeed-cazinou span {
+      color: #1e710f;
+      background: rgba(30,113,15,.15);
+      margin: 5px 0;
+      font-weight: 700;
+      padding: 0 5px;
+  }
+#home-games-div .cazino-button {
+  float: none;
+
+}
+#home-games-div:first-of-type .the-content-cls {
+    width: 50%;
+  }
+#home-games-div:nth-of-type(2) .the-content-cls{
+    width: 50%;
+  }
+#home-games-div .the-content-cls .newsfeed-title h5 {
+font-size: 1.75em !important;
+}
+#inside-content .title-text {
+    margin-top: 0px !important;
+}
+.second-home-content {
+  float: left;
+}
+.second-home-title {
+    float: left;
+    width: 100%;
+}
+.second-home-title h1 {
+    color: #000 !important;
+    text-align: left !important;
+    font-size: 1.75em !important;
+    line-height: 1.4 !important;
+    font-weight: 700 !important;
+}
+#Bonus-id-bg .cazino-thumbnail {
+    float: left;
+    margin-top: 20px;
+}
+.second-home-content strong {
+    color: #000 !important;
+    font-size: 18px;
+}
+
+.bg-games-post {
+    display: flex;
+}
+.the-content-single {
+    width: 50%;
+    float: left;
+    color: #000;
+    padding-right: 10px !important;
+}
+#single-bg .the-content-cls {
+    padding-left: 10px !important;
+}
+#single-bg {
+    float: left;
+    width: 45%;
+}
+#single-bg .the-content-cls .newsfeed-title {
+    word-wrap: break-word;
+}
+#single-bg .the-content-cls .post {
+    display: block !important;
+    position: relative;
+    margin-bottom: 20px !important;
+}
+#big-n-bad div#single-wide-bg {
+    margin-right: 32px;
+    padding-top: 20px !important;
+}
+#single-wide-bg.home-content-left {
+    padding-top: 0 !important;
+}
+#single-wide-bg .newsfeed-page-img img {
+    width: 100%;
+    height: 400px;
+}
+
+#single-wide-bg p {
+    text-align: left !important;
+}
+div#single-wide-bg {
+    float: left;
+    width: 52%;
+}
+.bg-games-post:nth-child(even) {
+    background: #f1f1f1;
+}
+
+a {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+.nr-general {
+    width: 10%;
+    float: left;
+    margin: 0 auto;
+    text-align: center !important;
+    margin-top: 45px;
+}
+.casino-num {
+    text-align: center !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center !important;
+    color: #c90000;
+    width: 100%;
+}
+.nr-general p.cazino-number {
+     float: none;
+     margin: 0 auto !important;
+}
+.img-general {
+    width: 20%;
+    float: left;
+}
+.img-general .cazino-img-cont {
+     width: 100%;
+
+}
+.titluri-general {
+    width: 50%;
+    float: left;
+    display: block;
+    padding: 25px 10px 10px 10px;
+}
+.titluri-general p.cazino-cazino {
+    text-align: left !important;
+     width: 100%;
+     position: relative;;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c90000;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.titluri-general .cazino-titlu {
+     margin: 0px !important;
+     font-size: 14px;
+}
+.ratingandbutton-general {
+    width: 20%;
+    float: left;
+}
+.ratingandbutton-general .cazino-button-cont {
+    width: 100%;
+    text-align: center !important;
+    padding: 10px;
+}
+.ratingandbutton-general .cazino-button {
+      margin: 0 auto !important;
+      float: none;
+}
+.ratingandbutton-general p.cazino-rating {
+    text-align: center !important;
+}
+.ratingandbutton-general p.cazino-rating {
+    font-size: 18px;
+    color: #916800;
+    font-weight: bold;
+     float: none;
+     display: block;
+     margin-top: 20px;
+    text-align: center;
+}
+.spec-width {
+    width: 25px !important;
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+}
+
+
+.fusion-megamenu-wrapper .fusion-megamenu-submenu {
+    width: 202px;
+}
+.fusion-megamenu-holder {
+    border-top: 0px;
+}
+.fusion-megamenu-wrapper .fusion-megamenu-submenu {
+    padding: 0 !important;
+}
+.fusion-megamenu-icon img {
+    max-height: 100% !important;
+}
+div.fusion-megamenu-title > a {
+    color: #000;
+    text-align: center;
+}
+.fusion-secondary-header {
+    display: none;
+}
+.fullwidth-box, .fullwidth-box .fusion-row .fusion-full-width-sep {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.bg-cont-border{
+  border:1px solid #838383;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+#content-bg .fusion-one-half .fusion-column-wrapper .img-large img  {
+    border-style: none;
+    vertical-align: top;
+    width: 1000px !important;
+    height: auto;
+}
+#main {
+    padding-top: 25px !important;
+}
+.fusion-logo {
+    margin-bottom: -10px !important;
+}
+.fusion-header-v4 .fusion-header {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+}
+.fusion-header, div#wrapper {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.fusion-secondary-main-menu {
+  border: 1px solid #125c98 !important;
+background: #1366ab !important;
+
+}
+.fusion-main-menu > ul > li > a:hover {
+    border-color: transparent !important;
+    color:#fff !important;
+}
+
+.fusion-main-menu .current-menu-ancestor > a, .fusion-main-menu .current-menu-item > a, .fusion-main-menu .current-menu-parent > a, .fusion-main-menu .current_page_item > a {
+    color: #fff;
+    border-color: transparent !important;
+}
+.fusion-main-menu > ul > li {
+    padding-right: 5% !important;
+}
+
+.title-text, .fusion-title-size-four h4 {
+    color: #fff !important;
+    font-size: 1em !important;
+
+    padding: 5px !important;
+    text-align: left !important;
+    line-height: 20px !important;
+    font-family: Lato, sans-serif !important;
+    margin-top: 20px !important;
+    font-weight: 700 !important;
+    color: #fff;
+    border-color: #4e4e4f;
+    background: #212121;
+}
+
+.title-text:before, .fusion-title-size-four h4:before {
+  content: "\f054";
+  padding-right: .175em;
+  padding-left: 4px;
+   font-size: 1em;
+  font-weight: 700;
+  font-family: fontawesome;
+  speak: none;
+  font-style: normal;
+  font-weight: 300;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  top: 1px;
+}
+
+.title-text2 {
+    color: #fff !important;
+    font-size: 24px !important;
+    background: -webkit-linear-gradient(#d05518, #991d09);
+    background: -o-linear-gradient(#d05518, #991d09);
+    background: -moz-linear-gradient(#d05518, #991d09);
+    background: linear-gradient(#d05518, #991d09);
+    padding: 8px;
+    text-align: left !important;
+    line-height: 20px !important;
+    font-family: Lato, sans-serif !important;
+    margin-top: 0 !important;
+    font-size: 1.4em !important;
+    font-weight: 700 !important;
+    color: #fff;
+border-color: #4e4e4e;
+background: #1b1b1b;
+box-shadow: inset 0 1px 0 #858585,inset 0 -1px 0 #4e4e4e,inset 0 .75em 1.25em #545454;
+}
+
+div#main {
+    background-color: rgba(0,0,0,0);
+}
+
+.fusion-column-wrapper{
+    background-color: #fff;
+}
+#content-bg {
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	margin-bottom: 35px;
+}
+#main > .fusion-row {
+	padding: 0 !important;
+}
+.fusion-secondary-main-menu {
+
+}
+div#sidebar {
+    background: #ffffff !important;
+    border: 1px solid #838383;
+    width: 22% !important;
+    padding: 20px !important;
+}
+.fusion-main-menu > ul > li {
+
+    border-right: 1px solid #a7260e;
+
+    padding: 0 15px !important;
+    margin: 0;
+}
+.fusion-main-menu > ul > li {
+    /* padding-left: 15px; */
+    border-right: 1px solid #00447b;
+    /* margin-right: 15px; */
+    /* padding-right: 0 !important; */
+
+    /* margin: 0 20px; */
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.fusion-main-menu > ul > li:hover {
+  background: #35a4ff;
+  /*box-shadow: inset 0 1px 0 rgba(255,255,255,.5),inset 0 .25em 1em #166eb6;*/
+}
+img.fusion-logo-1x.fusion-standard-logo {
+    position: relative;
+    right: 50px;
+}
+.fusion-main-menu {
+    border-radius: .2em;
+  }
+.fusion-main-menu > ul > li:last-child {
+	margin-right: 1px solid #a7260e;
+}
+.fusion-secondary-main-menu > .fusion-row {
+    margin-left: 0;
+}
+.fusion-secondary-main-menu {
+	padding-left: 0;
+}
+div.fusion-flexslider>ul.slides>li {
+    display: block;
+}
+.fusion-recent-posts.layout-thumbnails-on-side .columns .column .floated-slideshow {
+    width: 90px;
+}
+div.recent-posts-content>h4.entry-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+h2.marg {
+	margin-top: 20px;
+}
+.fusion-logo .fusion-header-banner a {
+    color: #fff;
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-family: Lato, sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.fusion-header-content-3-wrapper {
+	margin-right: -40px;
+}
+.reg-dropdown {
+    width: 200px;
+    background-color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #838383;
+    position: absolute;
+    right: -30px;
+    z-index: 20000;
+
+    display: none;
+}
+div.submit-button {
+	text-align: center;
+}
+div.submit-button > input.wpcf7-form-control.wpcf7-submit {
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #fff;
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+        background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.fusion-footer-widget-area {
+    border-color: #363839 !important;
+}
+#main {
+    padding-bottom: 0px !important;
+}
+#footer .fusion-copyright-notice {
+    float: left;
+    width:50%;
+}
+#footer .fusion-copyright-notice div{
+    text-align: left !important;
+}
+#footer .fusion-social-links-footer {
+    margin-top: 0px !important;
+}
+#footer .fusion-social-networks-wrapper {
+    text-align: right !important;
+}
+#footer .footer-right {
+    display: block;
+    margin-top: 0px;
+}
+#footer .footer-right div {
+    text-align: left !important;
+    color: #e5e0de;
+    float: left;
+}
+#footer .footer-right p, #footer .footer-right a {
+    color: #e5e0de !important;
+}
+#footer .footer-links {
+    float: right !important;
+}
+footer .footer-links a {
+    float: left;
+    margin-left: 10px;
+}
+span.menu-text {
+    font-family: Lato, sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+div.fusion-header-banner:hover > a + .reg-dropdown {
+    display: block !important;
+}
+#newsfeed {
+	margin-left: 2.0%;
+}
+.the-content-cls {
+    width: 50%;
+    float: left;
+    color: #000;
+}
+.the-content-cls .fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none.nonhundred-percent-fullwidth {
+    border-top-width: 0px !important;
+    padding-left: 0px !important;
+    border-bottom-width: 0px !important;
+}
+.the-content-cls .newsfeed-title h5 {
+    color: #000 !important;
+    font-size: 1.75em !important;
+    font-weight: 700;
+    text-align: left !important;
+    line-height: 1;
+}
+.post a {
+    color: #1568ac;
+    font-weight: 700;
+}
+.post a:hover {
+    color: #3b8ed2 !important;
+}
+
+
+
+.the-content-cls h1.title-heading-left {
+    font-weight: 700 !important;
+        color: #000;
+}
+.newsfeed-date:before {
+    content: "\f017";
+    font-family: fontawesome;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+#single-wide-bg .newsfeed-date:before {
+    margin-right: 5px;
+  }
+
+#single-wide-bg  .newsfeed-title h5 {
+    color: #000 !important;
+    font-size: 2.65em !important;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    text-align: left !important;
+    margin-bottom: 20px;
+}
+strong {
+    color: #000 !important;
+}
+
+/*#newsfeed > div.fusion-column-wrapper {
+	width: 2940px;
+}*/
+#newsfeed2 + div.fusion-clearfix,
+#newsfeed + div.fusion-clearfix {
+	display: none;
+}
+#content-bg {
+	width: 67.66%;
+	float: left;
+}
+.slider-rev-cls {
+    width: 100%;
+}
+
+.home-content-left {
+    padding-top: 20px;
+}
+p.meta > span + span.meta-separator,
+p.meta > span + span.meta-separator + span {
+	display: none !important;
+}
+#newsfeed2 {
+	float: right !important;
+}
+.display-none {
+	display: none;
+}
+.before-clearfix {
+	margin-right: 30px;
+}
+.before-clearfix + div.fusion-clearfix{
+	display: none;
+}
+a.more-button:hover {
+	font-weight: bold;
+	color: #ffffff;
+}
+a.more-button {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    right: 0;
+    background: -webkit-linear-gradient(#d05518, #991d09);
+    background: -o-linear-gradient(#d05518, #991d09);
+    background: -moz-linear-gradient(#d05518, #991d09);
+    background: linear-gradient(#d05518, #991d09);
+    color: #ffffff;
+    z-index: 10;
+    width: 70px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+input.wpcf7-form-control.wpcf7-submit {
+  background-color: #991d09 !important;
+}
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: #d05518 !important;
+}
+.game-element {
+	position: relative;
+}
+.game-element:hover .overlay > a.more-button {
+	opacity: 1;
+	transition: all 0.5s;
+}
+.game-element:hover .overlay {
+	transition: all 0.5s;
+    background: rgba(0,0,0,0.7);
+}
+.overlay {
+    width: 110%;
+    background: rgba(0,0,0,0.0);
+    height: 104%;
+    top: -2%;
+    left: -5%;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.casino-img1 img.img-responsive {
+    width: 30px;
+    float:right !important;
+    margin-right: 20px;
+}
+.casino-img1{
+  float:right !important;
+  position: relative;
+  top: -80px;
+}
+p.casino-p1 {
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+.casino-nr h2.title-heading-left {
+    float:right;
+}
+.fusion-title.title.fusion-sep-none.fusion-title-size-two.casino-nr {
+    position: relative;
+    top: -80px;
+}
+.casino-h1 {
+    margin-left: 20px;
+}
+.casino-img2 {
+    position: relative;
+    top: -100px;
+}
+p.casino-text1 {
+    position: relative;
+    top: -100px;
+    width: 140%;
+    left: -88px;
+}
+
+
+.casino-cont {
+    height: 300px;
+}
+#newsfeed{
+  background-color: #fff !important;
+  border: 1px solid #838383;
+}
+/*.fusion-column-wrapper {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+*/
+
+
+
+
+/* bonus style */
+
+h3.bonus-number {
+    background: #ffffff;
+    padding: 8px;
+    border: 1px solid #838383;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    line-height: 12px !important;
+    float: left;
+}
+div#Bonus-id-bg {
+    background: #fff;
+    border: 1px solid #838383;
+    display: inline-block;
+    width: 67.6%;
+    float: left;
+    /*padding: 10px;*/
+        padding: 0;
+}
+div.slot-class {
+    width: 72.8% !important;
+    position: relative;
+    right: 27px;
+    bottom: 10px;
+}
+#slot-wrapper{
+  position: relative;
+}
+
+
+/*new slot*/
+
+
+
+.slot-btn-new {
+    text-align: center !important;
+    color: #fff;
+    padding:10px 0;
+    text-shadow: 0 1px 0 rgba(34,34,34,.75);
+    margin: 0;
+}
+.hue-pri.button--wide {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(34,34,34,.75);
+    border-color: #0e9826;
+    background: #0aa224;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.25),inset 0 .75em 1.5em #3aff5c;
+}
+/* new slot end*/
+
+
+
+
+#slot-wrapper #newsfeed {
+    position: absolute;
+}
+
+.bonus-bg {
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 97%;
+    float: left;
+}
+
+.bonus-bg:nth-child(2n) {
+    background: #f5f5f5;
+}
+.bonus-h1 {
+    font-size: 22px;
+    color: #cb0000;
+    font-weight: bold;
+}
+.bonus-h2 {
+    font-size: 18px;
+    color: #916800;
+    font-weight: bold;
+}
+.bonus-bg > .bonus-img,
+.bonus-bg > .bonus-hh12 {
+    float: left;
+}
+/*.bonus-bg > h4,
+.bonus-bg > .bonus-button {
+    float: right;
+}*/
+.bonus-button {
+    color: #fff;
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.bonus-button:hover {
+    color: #fff;
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.bonus-bg > .bonus-hh12 + .bonus-right-zone > .bonus-rating > h4.bonus-h4 {
+    font-size: 18px;
+    color: #916800;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    margin: 4px 5px 20px;
+}
+.bonus-bg > .bonus-hh12 + .bonus-right-zone > .bonus-rating > img.rating-star {
+    width: 25px;
+    float: left;
+    display: inline-block;
+}
+.bonus-img {
+    height: 80px;
+    overflow: hidden;
+    border: 1px solid #838383;
+    margin: 10px;
+}
+.bonus-rating {
+    display: inline-block;
+    width: 44%;
+    margin: 0 33%;
+}
+.bonus-right-zone {
+    width: 20%;
+    float: right;
+    text-align: center !important;
+}
+.bonus-hh12 {
+    margin-top: 10px;
+}
+
+.fusion-header {
+    border-bottom: 0px !important;
+}
+.fusion-secondary-main-menu {
+    border: 0px !important;
+}
+
+/*slots*/
+
+h1.slots-display-none {
+    display: none;
+}
+p.slots-arie-text {
+    padding: 0 20px 0 20px;
+    text-align: left;
+}
+div#slots-id-bg {
+    display: inline-block;
+    max-width: 67%;
+}
+.slots-bg {
+    margin: 3%;
+    text-align: center;
+    width: 27%;
+    background-color: #fff;
+    border: 1px solid #838383;
+    float: left;
+}
+p.slots-rating {
+    max-height: 30px;
+    text-align: center !important;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 18px;
+    color: red;
+    margin: 20px auto;
+}
+.button-slot{
+  color: #000;
+  text-align: center !important;
+  padding: 10px;
+}
+.slot-modal-wrapper {
+    text-align: center !important;
+}
+.slots-thumbnail {
+    margin: 20px 20px 0 20px;
+    text-align: center !important;
+}
+.slots-thumbnail img {
+    width: 150px;
+    height: 100px;
+}
+.slots-button {
+    margin-bottom: 20px !important;
+    width: 50%;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    border-radius: 3px;
+    height: 40px;
+}
+.slots-button2 {
+    /* height: 100%; */
+    /* vertical-align: middle; */
+    /* margin: auto 0; */
+    padding: 10px;
+}
+/*slots end*/
+
+/*jackpot-games*/
+h1.jackpot-games-display-none {
+    display: none;
+}
+div#jackpot-games-id-bg {
+    width: 66.6%;
+    display: inline-block;
+  }
+
+  p.jackpot-games-rating {
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 50px;
+      font-size: 18px;
+      color: red;
+  }
+  .jackpot-games-bg {
+      background-color: #fff;
+      border: 1px solid #838383;
+      display: flex;
+      min-height: 122px;
+  }
+  .jackpot-games-div1 {
+    width: 20%;
+}
+.jackpot-games-div2 {
+    width: 20%;
+}
+.jackpot-games-div3 {
+    width: 40%;
+}
+.jackpot-games-div4 {
+    width: 20%;
+}
+.jackpot-games-button {
+    text-align: center;
+    margin-bottom: 20px !important;
+    width: 50%;
+    margin-top: 40px !important;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    border-radius: 3px;
+    height: 40px;
+}
+.jackpot-games-button2 {
+    /* height: 100%; */
+    /* vertical-align: middle; */
+    /* margin: auto 0; */
+    padding-top: 10px;
+}
+.jackpot-games-thumbnail {
+    text-align: center;
+    padding-top: 20px;
+}
+p.jackpot-games-arie-text {
+    margin: 10px;
+}
+.jackpot-games-link {
+    padding: 12px 25px 12px 20px;
+}
+/*jackpot-games end*/
+
+
+/* casino start */
+
+.cazino-thumbnail {
+    margin-top: 7px;
+}
+
+p.cazino-number {
+    background: #ffffff;
+    padding: 8px;
+    border: 1px solid #838383;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    text-align: center !important;
+    line-height: 12px !important;
+    float: left;
+    margin-bottom: 0;
+}
+.casino-num {
+    text-align: center !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center !important;
+    color: #c90000;
+}
+.cazino-titlu {
+	float: left;
+	font-size: 20px;
+	color: #000;
+	margin: 5px 10px !important;
+}
+div#cazino-id-bg {
+    background: #fff;
+    border: 1px solid #838383;
+    display: inline-block;
+    width: 66.8%;
+    float: left;
+    /*padding: 10px;*/
+}
+.cazino-bg {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 98.5%;
+    float: left;
+}
+
+.cazino-thumbnail {
+	border: 1px solid #838383;
+	float: right;
+}
+p.cazino-cazino {
+	text-align: center !important;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c90000;
+    margin-top: 5px;
+}
+.bonus-h1 {
+    font-size: 22px;
+    color: #cb0000;
+    font-weight: bold;
+}
+.bonus-h2 {
+    font-size: 18px;
+    color: #916800;
+    font-weight: bold;
+}
+.bonus-bg > .bonus-img,
+.bonus-bg > .bonus-hh12 {
+    float: left;
+}
+.cazino-button {
+
+    color: #fff;
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+	   margin: 20px 20px 0 20px;
+    float: left;
+    text-align: center !important;
+}
+.cazino-button > a {
+	color: #fff;
+}
+.cazino-button:hover > a {
+	color: #fff;
+}
+.cazino-button:hover {
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+p.cazino-arie-text {
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.cazino-bg > .cazino-game-header > .cazino-rating {
+	font-size: 18px;
+    color: #916800;
+    font-weight: bold;
+    float: right;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+.cazino-bg > .cazino-game-header > p.cazino-rating > img.rating-star {
+	width: 25px;
+    display: block;
+    margin-bottom: 5px;
+}
+.cazino-game-header {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border: 1px solid #838383;
+    background: #838383;
+    background: -webkit-linear-gradient(#fefefe, #f2f2f2);
+    background: -o-linear-gradient(#fefefe, #f2f2f2);
+    background: -moz-linear-gradient(#fefefe, #f2f2f2);
+    background: linear-gradient(#fefefe, #f2f2f2);
+    border-radius: 3px;
+    padding: 10px;
+}
+/* casino end */
+
+/* casino live start */
+
+.cazino-live-thumbnail {
+    margin-top: 20px;
+}
+
+p.cazino-live-number {
+    background: #ffffff;
+    padding: 8px;
+    border: 1px solid #838383;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    line-height: 12px !important;
+    float: left;
+    margin-bottom: 0;
+}
+.cazino-live-titlu {
+	float: left;
+	font-size: 20px;
+	color: #000;
+	margin: 5px 10px !important;
+}
+div#cazino-id-bg {
+    background: #fff;
+    border: 1px solid #838383;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 67.6%;
+    float: left;
+    margin-bottom: 20px;
+}
+.cazino-live-bg {
+    background: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 65%;
+    float: left;
+}
+
+.cazino-live-thumbnail {
+	border: 1px solid #838383;
+	float: right;
+}
+p.cazino-live-cazino-live {
+	text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #c90000;
+    margin-top: 5px;
+}
+.bonus-h1 {
+    font-size: 22px;
+    color: #cb0000;
+    font-weight: bold;
+}
+.bonus-h2 {
+    font-size: 18px;
+    color: #916800;
+    font-weight: bold;
+}
+.bonus-bg > .bonus-img,
+.bonus-bg > .bonus-hh12 {
+    float: left;
+}
+.cazino-live-button {
+
+    color: #fff;
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+	margin: 20px 20px 0 20px;
+    float: left;
+}
+.cazino-live-button > a {
+	color: #fff;
+}
+.cazino-live-button:hover > a {
+	color: #fff;
+}
+.cazino-live-button:hover {
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+p.cazino-live-arie-text {
+    float: left;
+    width: 460px;
+    margin-top: 10px;
+}
+.cazino-live-bg > .cazino-live-game-header > .cazino-live-rating {
+	font-size: 18px;
+    color: #916800;
+    font-weight: bold;
+    float: right;
+    display: inline-block;
+    margin: -8px 5px 5px;
+    text-align: center;
+}
+.cazino-live-bg > .cazino-live-game-header > p.cazino-live-rating > img.rating-star {
+	width: 25px;
+    display: block;
+    margin-bottom: 5px;
+}
+.cazino-live-game-header {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border: 1px solid #838383;
+    background: #838383;
+    background: -webkit-linear-gradient(#fefefe, #f2f2f2);
+    background: -o-linear-gradient(#fefefe, #f2f2f2);
+    background: -moz-linear-gradient(#fefefe, #f2f2f2);
+    background: linear-gradient(#fefefe, #f2f2f2);
+    border-radius: 3px;
+    padding: 15px 10px 0 10px;
+}
+.fusion-megamenu-wrapper .row {
+
+}
+.fusion-megamenu-icon img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fusion-megamenu-icon img:hover {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+     -webkit-box-shadow: inset 0 0 10px #000000;
+     box-shadow:         inset 0 0 10px #000000;
+}
+.fusion-megamenu-wrapper .fusion-megamenu-submenu:hover {
+  -webkit-box-shadow: 0px 0 10px 5px #636363;
+   -moz-box-shadow: 0px 0 10px 5px #636363;
+    box-shadow: 0px 0 10px 5px #636363;
+}
+.fusion-megamenu-holder {
+    overflow: hidden;
+}
+.fusion-megamenu-wrapper {
+    box-shadow: 0 10px 12px -1px #000;
+}
+
+
+
+h1.jackpot-games-display-none {
+    display: none;
+}
+div#jackpot-games-id-bg {
+    width: 66.6%;
+    display: inline-block;
+  }
+
+  p.jackpot-games-rating {
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 50px;
+      font-size: 18px;
+      color: red;
+  }
+  .jackpot-games-bg {
+      background-color: #fff;
+      border: 1px solid #838383;
+      display: flex;
+      min-height: 122px;
+  }
+  .jackpot-div1 {
+      width: 10%;
+      text-align: center;
+  }
+  .jackpot-div2 {
+      width: 15%;
+      text-align: center;
+      padding-top: 20px;
+  }
+  .jackpot-div3 {
+      width: 20%;
+      text-align: center;
+      margin-top: 30px;
+  }
+.jackpot-div4 {
+    width: 20%;
+}
+.jackpot-div4 {
+    width: 20%;
+}
+.jackpot-games-button {
+    text-align: center;
+    margin-bottom: 20px !important;
+    width: 50%;
+    margin-top: 40px !important;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    border-radius: 3px;
+    height: 40px;
+}
+.jackpot-games-button2 {
+    /* height: 100%; */
+    /* vertical-align: middle; */
+    /* margin: auto 0; */
+    padding-top: 10px;
+}
+.jackpot-games-thumbnail {
+    text-align: center;
+    padding-top: 20px;
+}
+p.jackpot-games-arie-text {
+    margin: 10px;
+}
+.jackpot-games-link {
+    padding: 12px 25px 12px 20px;
+}
+p.jackpot-games-number {
+    margin-top: 45px;
+    padding-top: 5px;
+    background: #ffffff;
+    border: 1px solid #838383;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+/*jackpot end*/
+/*spins*/
+h1.spins-display-none {
+    display: none;
+}
+div#spins-id-bg {
+    width: 66.6%;
+    display: inline-block;
+  }
+
+  p.spins-rating {
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 50px;
+      font-size: 18px;
+      color: red;
+  }
+  .spins-bg {
+      background-color: #fff;
+
+      display: flex;
+      min-height: 122px;
+  }
+  .spins-div1 {
+    width: 20%;
+}
+.spins-div2 {
+    width: 20%;
+}
+.spins-div3 {
+    width: 40%;
+}
+.spins-div4 {
+    width: 20%;
+}
+.spins-button {
+    text-align: center;
+    margin-bottom: 20px !important;
+    width: 50%;
+    margin-top: 40px !important;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    border-radius: 3px;
+    height: 40px;
+}
+.spins-button2 {
+    /* height: 100%; */
+    /* vertical-align: middle; */
+    /* margin: auto 0; */
+    padding-top: 10px;
+}
+.spins-thumbnail {
+    text-align: center;
+    padding-top: 20px;
+}
+p.spins-arie-text {
+    margin: 10px;
+}
+.spins-link {
+    padding: 12px 25px 12px 20px;
+}
+/*spins end*/
+
+
+
+div.widget > div.heading > h4.widget-title {
+    margin: 0;
+}
+.container-newsf {
+    display: inline-block;
+    width: 30.3%;
+    background: #fff;
+    padding: 0 20px;
+}
+.newsfeed-img {
+    margin-bottom: 20px;
+}
+.post {
+    margin-bottom: 0 !important;
+}
+.newsfeed-title h5{
+    color: #000 !important;
+    font-size: 18px !important;
+    font-family: Lato, sans-serif !important;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+h1 {
+  font-family: Lato, sans-serif !important;
+}
+h2 {
+  font-family: Lato, sans-serif !important;
+
+}
+
+h3 {
+  font-family: Lato, sans-serif !important;
+}
+h4 {
+  font-family: Lato, sans-serif !important;
+}
+h5 {
+  font-family: Lato, sans-serif !important;
+}
+h6 {
+  font-family: Lato, sans-serif !important;
+}
+p {
+  font-family: Lato, sans-serif !important;
+  color: #000;
+}
+li {
+  color: #000;
+}
+.newsfeed-title2 h5{
+    color: #3d3d3d !important;
+    font-size: 18px !important;
+    font-family: Lato, sans-serif !important;
+    margin-bottom: 10px;
+}
+.fusion-megamenu-title{
+  font-family: Lato, sans-serif !important;
+}
+.newsfeed-date {
+    color: #999;
+}
+.img-resize-margine {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.newsfeed-line {
+    border-bottom: 1px solid #ddd;
+    margin-top: 15px;
+}
+div#newsfeed-page {
+    background-color: #fff;
+    width: 66.6%;
+    padding: 0 20px;
+    border-color: #838383;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding-bottom: 20px;
+}
+div#newsfeed-archive {
+    background-color: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    border-color: #838383;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    padding-bottom: 20px;
+}
+.more-posts {
+  text-align: center;
+}
+#games-container {
+  display: inline-block;
+  width: 66.6%;
+  background-color: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #838383;
+  padding-bottom: 20px;
+}
+#left-games {
+    width: 66%;
+    float: left;
+}
+#right-games {
+    width: 32%;
+    float:right;
+}
+.left-games-div {
+    width: 50%;
+    padding:20px;
+    float: left;
+}
+#left-games img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    width: 100% !important;
+    height: 180px !important;
+}
+.thumbnail-black {
+  width: 300px;
+  height: 180px;
+  background-color: #000;
+  opacity: 0;
+  filter: alpha(opacity=100);
+  position: absolute;
+}
+.thumbnail-black:hover {
+    transition: all 0.5s;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.left-games-title {
+    text-align: center;
+}
+.newsfeed-page-img img {
+
+    width: 66%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.newsfeed-page-date {
+  color: #3d3d3d;
+}
+
+.newsfeed-img-sec {
+    overflow: hidden;
+}
+.newsfeed-img-sec img:hover{
+    transition: transform .3s linear;
+    transform: scale(1.2);
+}
+
+.slot-modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 20000;
+    display: none;
+}
+.slot-modal-wrapper {
+    z-index: 2001;
+    width: 1000px;
+    height: 600px;
+    left: 0;
+    right: 0;
+    margin: 60px auto;
+    background: #fff;
+    border: 1px solid #838383;
+    border-radius: 3px;
+}
+h2.slot-modal-close {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bolder !important;
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.newsfeed-img.blog-img {
+    overflow: hidden;
+}
+.post.clearfix.col-xs-4.col-sm-4.col-md-4.col-lg-4 {
+    padding: 0;
+}
+.col-xs-12 .post.clearfix.col-xs-4.col-sm-4.col-md-4.col-lg-4 {
+    padding: 5px;
+}
+.newsfeed-img.blog-img {
+    margin: 0px;
+    overflow: hidden;
+    float: none;
+    position: relative;
+}
+/*.firstnlast .post:first-of-type .arch-news-img .newsfeed-img-sec img {
+    width: 780px;
+    height: 410px !important;
+}
+.firstnlast .post:nth-of-type(5) .arch-news-img .newsfeed-img-sec img {
+    width: 780px;
+    height: 410px !important;
+}*/
+.firstnlast h2 {
+    color: #fff !important;
+}
+div#blog-containter {
+    padding: 20px;
+}
+ul.fusion-megamenu.fusion-megamenu-border {
+    background-color: #fff !important;
+}
+.fusion-megamenu-wrapper .fusion-megamenu-submenu {
+    padding: 2px !important;
+}
+div.slot-modal-buton {
+    margin-bottom: 20px !important;
+    width: 50%;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+    border-radius: 3px;
+    height: 100%;
+    padding: 0 !important;
+    cursor: pointer;
+}
+p {
+      text-align: justify !important;
+}
+div {
+      text-align: justify !important;
+}
+.more-posts {
+    text-align: center !important;
+}
+.newsfeed-img-2 {
+    width: 35%;
+    margin-top: 20px;
+}
+.newsfeed-cont-wrap {
+    width: 60%;
+    float: left;
+}
+.newsfeed-img-excerpt {
+    float: none;
+    padding: 10px;
+    z-index: 999;
+    color: #000;
+}
+.newsfeed-img-excerpt a {
+    color: #ce5318 !important;
+}
+
+.noutati-container div#left-games {
+    width: 100%;
+}
+.noutati-container {
+    margin-top: 20px;
+}
+#single-wide-bg .cazino-button-cont {
+    width: 20%;
+    margin: 0 auto;
+  }
+.cazino-text-cont {
+    width: 60%;
+    margin: 0;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.cazino-img-cont {
+    width: 20%;
+    float: right;
+    margin-bottom: 10px;
+}
+.cazino-thumbnail img {
+    background-color: white;
+    height: 80px;
+    width: 150px;
+}
+.fusion-header-wrapper .fusion-row {
+
+    max-width: 100% !important;
+}
+.fusion-secondary-main-menu {
+    padding: 0 !important;
+}
+ul.fusion-megamenu {
+    background-color: #f1f1f1;
+}
+div.row > div.fusion-megamenu-holder > ul.fusion-megamenu.fusion-megamenu-border + ul.fusion-megamenu.fusion-megamenu-row-2 {
+  /*background: red !important;*/
+}
+.wp-pagenavi {
+	clear: both;
+  margin-top: 20px;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	color: #FFF;
+	text-decoration: none;
+  border: 1px solid #fff;
+	background-color:#1568ac;
+	padding: 5px 5px;
+	margin: 2px;
+}
+
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	border-color: #E9F2F9;
+	background-color:#3b8ed2;
+  	border: 1px solid #3b8ed2;
+  color:#fff;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+	background-color:#3b8ed2;
+  	border: 1px solid #3b8ed2;
+}
+.no-div {
+    padding: 0px;
+}
+.fusion-mobile-menu-icons a:before {
+    color: #3b8ed2 !important;
+}
+
+
+.fusion-title-size-four, h4 {
+     margin-top: 0 !important;
+    margin-bottom: 1.33em;
+}
+
+.the-content-cls .post {
+    margin-bottom: 0 !important;
+    display: inline-block;
+}
+.the-content-cls .newsfeed-img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: none;
+}
+.the-content-cls .newsfeed-title {
+    margin-top: -15px;
+}
+.newsfeed-date {
+    color: #999;
+    width: 100%;
+    clear: both;
+}
+.the-content-cls .newsfeed-line {
+    border-bottom: 1px solid #ddd;
+    margin: 15px 0;
+    margin-right: 15px;
+}
+.newsfeed-excerpt-div {
+    font-family: Lato, sans-serif !important;
+}
+
+/*Subscribe form*/
+
+#modal-reg {
+    display: none;
+    width: 300px;
+    right: 0;
+    background: white;
+    border-radius: 5px;
+    top: 45px;
+    position: absolute;
+}
+.fusion-header-banner {
+    position: relative;
+}
+.fusion-header {
+    z-index: 1000;
+    position: relative
+}
+
+.close-button {
+    color: #1e710f;
+    position: absolute;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+    display: none;
+    top: 50px;
+    right: 10px;
+}
+form #mc_embed_signup {
+    margin-top: 20px;
+}
+form #mc-embedded-subscribe {
+    background: #3aff5c;
+    background: -webkit-linear-gradient(#3aff5c, #1e710f);
+    background: -o-linear-gradient(#3aff5c, #1e710f);
+    background: -moz-linear-gradient(#3aff5c, #1e710f);
+    background: linear-gradient(#3aff5c, #1e710f);
+}
+form #mc_embed_signup_scroll input[type="text"], #mc_embed_signup_scroll input[type="email"] {
+    display: block;
+    width: 100% !important;
+    padding: 8px 0 !important;
+    text-indent: 2% !important;
+    color: #000 !important;
+    height: 30px;
+}
+
+#modal-reg #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+#mce-success-response {
+    display: none !important;
+}
+
+.nodisplay {
+    display: none;
+}
+
+/*Menu Sprite*/
+
+.menu-subclass .fusion-megamenu-title::before { 
+    background: url('menu-sprite.png') no-repeat top left; 
+    width: 100px; 
+    height: 100px;  
+    display: block; content: ""; 
+    margin-left: 14px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
+.menu-subclass.eightteen .fusion-megamenu-title::before  { background-position: 0 0; } 
+.menu-subclass.blog .fusion-megamenu-title::before{ background-position: 0 -110px; } 
+.menu-subclass.bonus .fusion-megamenu-title::before{ background-position: 0 -220px; } 
+.menu-subclass.cash-back .fusion-megamenu-title::before { background-position: 0 -330px; } 
+.menu-subclass.castiga .fusion-megamenu-title::before { background-position: 0 -440px; } 
+.menu-subclass.cazinou .fusion-megamenu-title::before { background-position: 0 -550px; } 
+.menu-subclass.contact .fusion-megamenu-title::before { background-position: 0 -660px; } 
+.menu-subclass.licenta .fusion-megamenu-title::before { background-position: 0 -770px; } 
+.menu-subclass.news .fusion-megamenu-title::before { background-position: 0 -880px; } 
+.menu-subclass.promotii .fusion-megamenu-title::before { background-position: 0 -990px; } 
+.menu-subclass.req .fusion-megamenu-title::before { background-position: 0 -1100px; } 
+.menu-subclass.sanse .fusion-megamenu-title::before { background-position: 0 -1210px; } 
+.menu-subclass.secure .fusion-megamenu-title::before { background-position: 0 -1320px; } 
+.menu-subclass.termeni .fusion-megamenu-title::before { background-position: 0 -1430px; } 
+
+.menu-subclass a {
+    position: relative;
+    top: -115px;
+    padding-top: 115px;
+    margin-bottom: -115px;
+}
+
+/*Media Query starts*/
+@media only screen and (min-width: 1440px) {
+  #container-img-casinos img {
+      border: 1px solid #838383;
+      padding: 2px;
+      max-width: 80px;
+  }
+}
+
+@media only screen and (max-width: 1238px) {
+#the-jackpot p.cazino-h1 {
+    font-size: 14px;
+}
+#big-n-bad #single-bg {
+    float: left;
+    width: 44% !important;
+}
+.fusion-megamenu-wrapper .fusion-megamenu-submenu {
+    width: 140px;
+}
+.fusion-megamenu-title {
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 945px) {
+  #big-n-bad #single-bg {
+      float: left;
+      width: 100% !important;
+  }
+  #big-n-bad  div#single-wide-bg {
+      float: left;
+      width: 100%;
+  }
+  #big-n-bad  .the-content-cls {
+      width: 50%;
+}
+  .the-content-cls {
+      width: 100%;
+      float: left;
+      color: #000;
+  }
+  #home-games-div .the-content-cls {
+    width: 100% !important;
+}
+}
+@media only screen and (max-width: 1100px) {
+  .fusion-mobile-menu-icons {
+    position: relative;
+    top: 95px;
+    transform: scale(2);
+  }
+  .fusion-header-v4.fusion-mobile-menu-design-modern .fusion-logo .fusion-logo-link {
+    max-width: 100% !important;
+    text-align: center !important;
+}
+.fusion-mobile-nav-item {
+    text-align: center !important;
+}
+.fusion-open-submenu:before {
+    transform: scale(2.2);
+    padding-right: 50px;
+    padding-top: 1px;
+}
+img.fusion-logo-1x.fusion-standard-logo {
+    position: relative;
+    right: auto;
+}
+}
+
+@media only screen and (max-width: 780px) {
+  .contact-box img {
+    display: none !important;
+}
+
+}
+@media only screen and (max-width: 680px) {
+  div#cazino-id-bg {
+    width: 100%;
+  }
+  div#Bonus-id-bg {
+    width: 100%;
+  }
+  .bonus-bg {
+      text-align: center !important;
+    }
+  .bonus-number{
+    width: 100%;
+    float: none !important;
+    text-align: center !important;
+  }
+  .bonus-img{
+    width: 100%;
+    float: none !important;
+    text-align: center !important;
+    border: 0px solid #838383;
+    margin: 0px;
+  }
+  p.bonus-h1 {
+    text-align: center !important;
+}
+  p.bonus-h2 {
+      text-align: center !important;
+  }
+  .bonus-rating {
+    width: 100%;
+  }
+  .bonus-hh12{
+    width: 100%;
+    float: none !important;
+    text-align: center !important;
+  }
+  .bonus-right-zone{
+    width: 100%;
+    float: none !important;
+    text-align: center !important;
+
+  }
+  #newsfeed {
+      margin-left: 2.0%;
+      /* height: 2610px; */
+      float: none !important;
+      margin: 0 auto;
+      margin-bottom: 20px;
+  }
+  .container-newsf {
+      /* display: inline-block; */
+      width: 100%;
+      background: #fff;
+      padding: 0 20px;
+  }
+  #content-bg {
+      width: 100%;
+      float: left;
+      margin-bottom: 20px;
+  }
+  #games-container {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+#right-games {
+    width: 100%;
+  }
+  #left-games {
+      width: 100% !important;
+  }
+  div.slot-class {
+       right: 0px;
+}
+#slot-wrapper #newsfeed {
+  position: relative;
+}
+.slots-bg {
+    margin: 10px 0;
+}
+
+}
+
+
+@media only screen and (max-width: 630px) {
+  .slots-bg {
+      width: 100%;
+}
+
+}
+
+
+@media only screen and (max-width: 510px) {
+  #the-jackpot .img-general {
+    width: 100%;
+}
+  #the-jackpot .ratingandbutton-general {
+    width: 100px;
+    margin: 0 auto;
+}
+#the-jackpot #container-img-casinos {
+    display: flex;
+    width: 100%;
+}
+#the-jackpot .titluri-general {
+    width: 100%;
+}
+#the-jackpot p.cazino-h2 {
+    text-align: center !important;
+  }
+#the-jackpot p.cazino-h1 {
+      text-align: center !important;
+      font-size: 26px;
+    }
+
+
+  #Bonus-id-bg .cazino-thumbnail {
+      float: none;
+      margin-bottom: 20px;
+}
+  #Bonus-id-bg .ratingandbutton-general .cazino-button-cont {
+    width: 100%;
+    padding: 0 100px;
+}
+  .cazino-button-cont {
+      width: 100%;
+  }
+  .cazino-game-header {
+    text-align: center !important;
+  }
+  p.cazino-number {
+    float: none;
+  }
+  p.cazino-titlu {
+    text-align: center !important;
+    float: none;
+ }
+ p.cazino-cazino {
+    position: relative;
+ }
+p.cazino-rating {
+    float: none !important;
+ }
+ .cazino-text-cont {
+     width: 100%;
+     margin: 0px;
+     padding: 0 20px;
+     float: left;
+ }
+ p.cazino-arie-text {
+    text-align: center !important;
+    width: 100% !important;
+ }
+ .cazino-thumbnail {
+    border: 0px solid #000;
+    text-align: center !important;
+    float: none;
+ }
+.cazino-img-cont {
+    width: 100%;
+    text-align: center !important;
+ }
+
+/*bonus casinos*/
+.bg-games-post {
+        display: inline-block;
+}
+.nr-general {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    text-align: center !important;
+    margin-top: 35px;
+}
+.img-general {
+    width: 100%;
+    float: none;
+}
+.titluri-general {
+    width: 100%;
+    float: none;
+    display: block;
+    padding: 25px 10px 10px 10px;
+}
+.titluri-general p.cazino-cazino {
+   text-align: center !important;
+   width: 100%;
+   position: relative;
+   font-size: 18px;
+   font-weight: bold;
+   color: #c90000;
+   margin-top: -10px;
+   margin-bottom: 0px;
+}
+.titluri-general .cazino-titlu {
+    margin: 0px !important;
+    text-align: left !important;
+    font-size: 14px;
+    padding: 10px 20px 0 20px;
+}
+.ratingandbutton-general {
+    width: 100%;
+    float: none;
+}
+.ratingandbutton-general .cazino-button-cont {
+    width: 50%;
+    text-align: center !important;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+
+}
+@media only screen and (max-width: 430px) {
+#big-n-bad  .the-content-cls {
+    width: 100%;
+}
+#big-n-bad .the-content-single {
+  width: 100%;
+}
+}
+/*Media Query stops*/
+
+.column-2-left {
+    float: left;
+}
+.padding-left {
+    padding-left: 20px;
+}
+
+
